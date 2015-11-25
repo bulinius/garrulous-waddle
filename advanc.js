@@ -4,7 +4,7 @@ function przedzial(){
 	var napis = "";
 	if (liczba1 < liczba2){
 		for (i=liczba1; i<=liczba2; i++) {
-			 napis = napis + i + " ";
+			 napis = napis + i + ", ";
 		}
 		document.getElementById("wyw").innerHTML = napis;
 	}
